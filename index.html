@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(110, 110, 63);
+        }
+        .hero-section {
+            background-image: url('img/background logo 2.jfif');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Gerose Bites</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero-section">
+    <div>
+        <h1>Welcome to Gerose bites</h1>
+        <button class="btn btn-primary mt-3">Explore Our Menu</button>
+    </div>
+</div>
+
+<!-- Menu Section -->
+<section id="menu" class="container my-5">
+    <h2 class="text-center mb-4">Our Menu</h2>
+    <div class="row">
+        <div class="col-md-4 menu-item">
+            <img src="img/bitterleaf soup.jpg" alt="Dish 1">
+            <strong>
+            <h3>Bitter leaf soup</h3>
+        </strong>
+            <p>We prepare spectacular bitter leaf soup famously known as Onigbu soup.</p>
+            <p class="font-weight-bold">#4000</p>
+        </div>
+        <div class="col-md-4 menu-item">
+            <img src="img/banga soup.jpg" alt="Dish 2">
+            <h3>Banga soup</h3>
+            <p>Our banga soup has a southerb nigerian touch which makes it stand out.</p>
+            <p class="font-weight-bold">#3750</p>
+        </div>
+        <div class="col-md-4 menu-item">
+            <img src="img/okhoro soup.jpg" alt="Dish 3">
+            <h3>Okra soup</h3>
+            <p>Gerose okra is second to none.</p>
+            <p class="font-weight-bold">#5560</p>
+        </div>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="img/logo 3.jpg" width="400" alt="About Us" class="img-fluid">
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+            <p>Welcome to Gerose bites, where we serve the best dishes in town. Our restaurant is dedicated to providing a wonderful dining experience with a variety of dishes made from fresh ingredients. Come and enjoy a meal with us!</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container my-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Gerose bites. All rights reserved.</p>
+        <div>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
